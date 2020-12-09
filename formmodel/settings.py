@@ -15,7 +15,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 import os
-BASE_PATH=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_PATH=os.path.dirname(os.path.abspath(__file__))
 TEMPLATES_PATH=os.path.join(BASE_PATH,"templates")
 STATIC_PATH=os.path.join(BASE_PATH,"static")
 # Quick-start development settings - unsuitable for production

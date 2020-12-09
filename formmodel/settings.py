@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 import os
 BASE_PATH=os.path.dirname(os.path.abspath(__file__))
 TEMPLATES_PATH=os.path.join(BASE_PATH,"templates")
-STATIC_PATH=os.path.join(BASE_PATH,"static")
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
@@ -120,4 +120,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS=[STATIC_PATH]
+
